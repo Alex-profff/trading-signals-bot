@@ -1,25 +1,25 @@
 # Trading Signals Bot
 
-Telegram бот для торговых сигналов по криптовалюте с трекером портфеля.
+A Telegram bot for crypto trading signals with portfolio tracking.
 
-## Функции
-- Сигналы LONG/SHORT на основе RSI + MA20 + MA50
-- Мониторинг BTC, ETH, SOL, BNB, ADA каждый час
-- ASCII график цены за 24ч
-- Трекер портфеля с PnL в реальном времени
+## Features
+- LONG/SHORT signals based on RSI + MA20 + MA50
+- Hourly monitoring of BTC, ETH, SOL, BNB, ADA
+- 24h ASCII price chart
+- Real-time portfolio tracker with PnL
 
-## Команды
-- /price — текущие цены и RSI
-- /signal — проверить сигналы сейчас
-- /chart BTC — график цены
-- /add BTC 0.5 — добавить в портфель
-- /portfolio — портфель и PnL
-- /status — статус бота
+## Commands
+- `/price` — current prices and RSI
+- `/signal` — check signals now
+- `/chart BTC` — price chart
+- `/add BTC 0.5` — add a holding to the portfolio
+- `/portfolio` — holdings and PnL
+- `/status` — bot status
 
-## Стек
-Python, python-telegram-bot, Binance API, pandas
+## Stack
+Python · python-telegram-bot · Binance API · pandas
 
-## Запуск
-1. Создай .env файл с BOT_TOKEN и CHAT_ID
-2. pip install -r requirements.txt
-3. python bot.py
+## Run
+1. Create a `.env` file with `BOT_TOKEN` and `CHAT_ID`
+2. `pip install -r requirements.txt`
+3. `python bot.py`
